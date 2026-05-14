@@ -1,0 +1,60 @@
+.youtube-container {
+  max-width: 1000%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-box button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #cc0000;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.video-card {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.video-card h4 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: #666;
+}
